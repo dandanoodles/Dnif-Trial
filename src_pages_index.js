@@ -1,3 +1,4 @@
+import { FaBook } from 'react-icons/fa';
 import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
