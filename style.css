@@ -256,3 +256,18 @@ a:focus {
 .comment-container button:hover {
   background: #e60073;
 }
+/* Highlight the main menu link when dropdown is open */
+.dropdown:hover > a,
+.dropdown:focus-within > a {
+  background: #f0f0f0;
+  color: #cc0066;
+  border-radius: 8px 8px 0 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* For dark theme support */
+[data-theme="dark"] .dropdown:hover > a,
+[data-theme="dark"] .dropdown:focus-within > a {
+  background: #3c3c4f;
+  color: #cc66ff;
+}
